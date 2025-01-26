@@ -1,1 +1,29 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'poopine';
+    src: url("../src/assets/Fonts/Poppins-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'poopineM';
+    src: url("../src/assets/Fonts/Poppins-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'alice';
+    src: url("../src/assets/Fonts/Alice-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+  .active{
+    @apply text-[#04B90B]
+  }
+
+  

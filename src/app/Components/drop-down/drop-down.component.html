@@ -1,0 +1,25 @@
+<div class="relative inline-block text-left">
+    <div>
+      <button (click)="tab()" type="button" class="inline-flex w-full justify-center gap-x-1.5  px-3 py-2 text-sm font-semibold text-[#777E90] sm:hidden ">
+        <i class="fa-solid fa-grip-lines"></i>
+        
+      </button>
+    </div>
+  
+
+    <div #element class="font-poopinem absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black/5 focus:outline-none hidden">
+      <div class="py-1" role="none">
+        <!-- Active: "bg-gray-100 text-gray-900 outline-none", Not Active: "text-gray-700" -->
+        <a routerLink="/home" 
+        routerLinkActive="text-[#04B90B]" class="block px-4 py-2 text-sm font-poopinem text-[16px] font-medium" >Home</a>
+        <a routerLink="/menu" 
+        routerLinkActive="text-[#04B90B]"  class="block px-4 py-2 text-sm font-poopinem text-[16px] font-medium" >Menu</a>
+        <a  routerLink="/blog" 
+        routerLinkActive="text-[#04B90B]" class="block px-4 py-2 text-sm font-poopinem text-[16px] font-medium">Blog</a>
+        <a  routerLink="/contact" 
+        routerLinkActive="text-[#04B90B]" class="block px-4 py-2 text-sm font-poopinem text-[16px] font-medium">Contact</a>
+   
+      </div>
+    </div>
+  </div>
+  
